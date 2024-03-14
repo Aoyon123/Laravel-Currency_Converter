@@ -28,7 +28,6 @@
           "aliases": {
             "CurrencyExchange": "CurrencyExchange\\CurrencyExchange"
           }
-        },
-        "class": "CurrencyExchange\\Plugin"
+        }
       }
 }
