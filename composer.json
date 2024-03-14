@@ -1,0 +1,34 @@
+{
+    "name": "fahamidul/currency-exchange",
+    "description": "A laravel  currency converter",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CurrencyExchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aoyon123",
+            "email": "fahamidulaoyon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+
+    "extra": {
+        "laravel": {
+          "providers": [
+            "CurrencyExchange\\CurrencyExchangeServiceProvider"
+          ],
+          "aliases": {
+            "CurrencyExchange": "CurrencyExchange\\CurrencyExchange"
+          }
+        },
+        "class": "CurrencyExchange\\Plugin"
+      }
+}
