@@ -1,7 +1,12 @@
 {
     "name": "fahamidul/currency-exchange-converter-package",
     "description": "A laravel  currency converter",
-    "type": "composer-plugin",
+    "keywords": [
+        "laravel_currency_exchange",
+        "laravel",
+        "lurrency_exchange"
+    ],
+    "homepage": "https://github.com/Aoyon123/Laravel-Currency_Converter",
     "license": "MIT",
     "autoload": {
         "psr-4": {
