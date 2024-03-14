@@ -1,5 +1,5 @@
 {
-    "name": "fahamidul/currency-exchange",
+    "name": "fahamidul/currency-exchange-converter-package",
     "description": "A laravel  currency converter",
     "type": "composer-plugin",
     "license": "MIT",
